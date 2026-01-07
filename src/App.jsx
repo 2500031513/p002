@@ -22,7 +22,7 @@ class App extends Component {
     return (
       <div className='app'>
          <div className='profile'>
-          <img  src={BASEURL + "public/adityakotha.jpg"} alt='Profile' />
+          <img  src={BASEURL + "/adityakotha.jpg"} alt='Profile' />
           <div className='info'>
              <legend className='name'>{data.name}</legend>
              <legend className='role'>{data.Role}</legend>
